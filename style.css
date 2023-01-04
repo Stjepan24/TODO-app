@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.todo-list{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    list-style: none;
+    padding: 0 10px;
+}
+.todo-list > li{
+    padding: 5px 0;
+    color: darkred;
+}
+
+.todo-list > li.done{
+    color: yellowgreen;
+    text-decoration: wavy line-through;
+}
+
+.todo-list > li > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.todo-list > li > input {
+    margin-right: 5px;
+}
